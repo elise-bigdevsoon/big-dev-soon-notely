@@ -1,25 +1,49 @@
-# Task
-Your task is to build a Notes Application as presented in the design under the Notes project section in BigDevSoon. The project is about managing your personal, home, business (or all) notes! Implement adding, editing, deleting, and marking notes as completed. There are also additional features to cover such as searching and filtering. 👨‍💻
+# Notely Project
 
-## Prerequisites
-You can choose any technologies of your own preference, the same applies to any tools, libraries, frameworks and everything related. We want you to have fun building this project and composing a technology stack that plays well with your taste.
+Hello to [BigDevSoon](https://bigdevsoon.me/) 👋
+
+Create an application that allows users to manage their tasks with notes. The app should have the ability to add, edit, delete, and mark notes as completed. Challenge yourself by implementing a state management solution and persisting data across sessions. Additionally, include features such as searching and filtering for better organization and productivity.
+
+## How to start
+
+1. Start the project in our [app](https://app.bigdevsoon.me/) to get a feel for it.
+2. Review the requirements listed below in this README.
+3. Go through the design images on the [project's page](https://app.bigdevsoon.me/projects/notely) and import the `.fig` file into Figma to understand the layout and design elements.
+4. Clone this repository or use [GitHub Codespaces](https://github.com/features/codespaces) to set up the project environment.
+5. Choose your preferred technology stack and overwrite repository files as needed to set up your project structure. We included a few files and the `assets` folder for convenience, extracted from the design.
+6. Begin coding, either using the Freerun mode to work on each card individually or the Speedrun mode to work at your own pace. Be sure to follow the guidelines outlined below.
+7. Have a strong desire to learn and improve your skills as a Big Developer. 🚀
 
 ## Requirements
 
-- [ ] Notes App UI matches the design and all of the UI states are implemented.
-- [ ] When adding a new note, users can fill title, category, and description. The date should be created under the hood using the current date.
-- [ ] Users can see created notes with all details and a colored label, sorted by date.
-- [ ] Users can mark notes as completed, edit, and delete them.
-- [ ] Users can search and filter notes.
-- [ ] When completing notes, they should have strikethrough text and become grayed out. Also, they should be moved into the end.
-- [ ] When editing notes, the date of the note should also be updated altogether with other fields.
-- [ ] When deleting notes confirmation should pop up.
-- [ ] Where needed, validation should be added.
-- [ ] All the empty states are visualized with proper illustration and text.
-- [ ] Save and read notes, using e.g. localStorage.
+- [ ] Add navigation with a placeholder search and an "+ Add" button.
+- [ ] Implement a dialog to add a new note with title, description, and category fields. The date should be created under the hood using the current date.
+- [ ] Display all created notes with their details and a colored label, sorted by date.
+- [ ] Implement a dialog to edit notes.
+- [ ] Implement a dialog to delete notes.
+- [ ] Allow users to mark notes as completed, moving them to the end and strikethrough text.
+- [ ] Implement searching notes by title.
+- [ ] Implement filtering notes by category with tabs.
+- [ ] Add a "Show only completed notes" checkbox.
+- [ ] Visualize empty states with proper illustration and text.
+- [ ] Validate the title field as required and the description field as a maximum of 200 characters.
+- [ ] Save notes using e.g. local storage to keep persistency on browser refresh.
 
-## Deployment
-Once you are ready with the project and unlocked the Complete step, you can try deploying the project to Vercel, Netlify, or GitHub Pages. One important thing to remember is that we've added a `<bds />` tag to the `index.html` file and will do a check against it while trying to add a Project URL. Don't forget it! 😊
+## Guidelines
 
-## Share your solution
-TBD
+1. Aim for pixel-perfect implementation of the design. Use tools like [PixelParallel](https://chrome.google.com/webstore/detail/pixelparallel-by-htmlburg/iffnoibnepbcloaaagchjonfplimpkob?hl=en) or other techniques to ensure accuracy.
+2. Write clean and efficient code. Use extensions like [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) and [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) for formatting and errors, and consider using [GitHub Copilot](https://github.com/features/copilot) and [VSCode](https://code.visualstudio.com/) as your code editor.
+3. Follow a [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow). Keep your commits small and descriptive, organize your work into separate branches, and use pull requests for code reviews.
+
+Remember, the cleaner and more accurate your code is, the faster you can finish and the better you'll feel about your work.
+So let's make it happen! 💡
+
+## Submitting project
+
+Once you've completed the project and unlocked the Submit step in our app, it's time to deploy your project to [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/), or [GitHub Pages](https://pages.github.com/) (if you haven't done so already). Keep in mind that we've added a `<bds />` tag to the `index.html` file, and we'll check for it when you submit your Project URL. So don't forget to include it! You'll also need to provide the project title and the primary frontend technology used. Good luck!
+
+## We're in Beta and getting better every day!
+
+Hey there, Big Developer! We wanted to take a moment to thank you for participating in our project and helping us improve our platform. We're always looking for ways to make our app better, so if you have any feedback or suggestions, please feel free to let us know.
+
+Happy coding! 🚀
