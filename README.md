@@ -2,13 +2,13 @@
 
 Hello to [BigDevSoon](https://bigdevsoon.me/) 👋
 
-Create an application that allows users to manage their tasks with notes. The app should have the ability to add, edit, delete, and mark notes as completed. Challenge yourself by implementing a state management solution and persisting data across sessions. Additionally, include features such as searching and filtering for better organization and productivity.
+Create an application that allows users to manage their tasks with notes.
 
 ## How to start
 
-1. Start the project in our [app](https://app.bigdevsoon.me/) to get a feel for it.
+1. Start the project in our [app](https://app.bigdevsoon.me/projects/notely) to get a feel for it.
 2. Review the requirements listed below in this README.
-3. Go through the design images on the [project's page](https://app.bigdevsoon.me/projects/notely) and import the `.fig` file into Figma to understand the layout and design elements.
+3. Go through the design assets on the [project's page](https://app.bigdevsoon.me/projects/notely) to understand the project more.
 4. Clone this repository or use [GitHub Codespaces](https://github.com/features/codespaces) to set up the project environment.
 5. Choose your preferred technology stack and overwrite repository files as needed to set up your project structure. We included a few files and the `assets` folder for convenience, extracted from the design.
 6. Begin coding, either using the Freerun mode to work on each card individually or the Speedrun mode to work at your own pace. Be sure to follow the guidelines outlined below.
