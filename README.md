@@ -2,7 +2,7 @@
 
 Application that allows users to manage their tasks with notes.
 
-![Notely Project preview image](./project-preview.png)
+![Notely Project preview image](https://github.com/elise-bigdevsoon/big-dev-soon-notely/blob/main/project-preview.png?raw=true)
 
 ## Hello to [BigDevSoon](https://bigdevsoon.me/) 👋
 
